@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+
+body {
+    margin: 10;
+    padding: 0;
+    background-color: #0d0d0d; 
+    color: #e60000;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Nosifer', cursive;
+    font-size: 3em;
+    color: #ff1a1a;
+    margin: 0;
+}
+
+main {
+    padding: 19px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2, h3 {
+    color: #ff3333;
+}
+
+.imagem-container i {
+     text-align: center;
+      margin: 20px 0; 
+    }
+
+
+.imagem-container img {
+    width: 350px;
+    height: auto;
+    border: 3px solid #990000;
+    box-shadow: 0 0 20px 8px rgba(255, 0, 0, 0.7);
+    display: block;
+    margin: 0 auto;
+}
+
+
+.sinopse, .elenco {
+    margin-bottom: 30px;
+}
+s
+.elenco ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.elenco li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #b30000;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+.cabecalho-filme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    font-family: 'Nosifer', cursive;
+    font-size: 2.5em;
+    color: #ff1a1a;
+    margin: 0;
+}
+
+.navegacao-filme a {
+    margin-left: 15px;
+    color: #e60000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #330000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.navegacao-filme a:hover {
+    background-color: #660000;
+}
+
+.spoiler-alert {
+    text-align: center;
+    margin: 50px ;
+    size: 1000%;
+}
+
+.spoiler-alert img {
+    max-width: 600px;
+    width: 120%;
+    border:none;
+    border-radius: 10px;
+}
